@@ -320,3 +320,4 @@ for row in rows:
     # dopln prázdné sloupce v poslední řadě
     for _ in range(n_cols - len(row)):
         cols[len(row) + _].empty()
+
